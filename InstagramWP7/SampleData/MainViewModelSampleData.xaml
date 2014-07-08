@@ -1,0 +1,24 @@
+﻿<local:MainViewModel 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"       
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:InstagramWP">
+    
+    <local:MainViewModel.Following>
+        <local:UserViewModel Username="user 1" FullName="User 1 Full Name" ProfilePicUrl="/ApplicationIcon.png"/>
+        <local:UserViewModel Username="user 2" FullName="User 2 Full Name" ProfilePicUrl="/ApplicationIcon.png"/>
+        <local:UserViewModel Username="user 3" FullName="User 3 Full Name" ProfilePicUrl="/ApplicationIcon.png"/>
+        <local:UserViewModel Username="user 4" FullName="User 4 Full Name" ProfilePicUrl="/ApplicationIcon.png"/>
+        <local:UserViewModel Username="user 5" FullName="User 5 Full Name" ProfilePicUrl="/ApplicationIcon.png"/>
+        <local:UserViewModel Username="user 6" FullName="User 6 Full Name" ProfilePicUrl="/ApplicationIcon.png"/>
+    </local:MainViewModel.Following>
+
+    <local:MainViewModel.Followers>
+        <local:UserViewModel Username="user A" FullName="User A Full Name" ProfilePicUrl="/ApplicationIcon.png"/>
+        <local:UserViewModel Username="user B" FullName="User B Full Name" ProfilePicUrl="/ApplicationIcon.png"/>
+        <local:UserViewModel Username="user C" FullName="User C Full Name" ProfilePicUrl="/ApplicationIcon.png"/>
+        <local:UserViewModel Username="user D" FullName="User D Full Name" ProfilePicUrl="/ApplicationIcon.png"/>
+        <local:UserViewModel Username="user E" FullName="User E Full Name" ProfilePicUrl="/ApplicationIcon.png"/>
+        <local:UserViewModel Username="user F" FullName="User F Full Name" ProfilePicUrl="/ApplicationIcon.png"/>
+    </local:MainViewModel.Followers>
+
+</local:MainViewModel>
